@@ -45,7 +45,7 @@ public class NamingUtil {
     }
 
     public String[] generate(int count) {
-        return generate(count, 7, "a", "");
+        return generate(count, 7, "", "");
     }
 
     public String[] generate(int count, int length, String start, String end, String pattern) {
